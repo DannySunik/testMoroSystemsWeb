@@ -3,17 +3,3 @@
 
 # Ignore WebDriverIO logs
 /logs
-
-# Ignore build artifacts and test reports
-/allure-report
-/coverage
-
-# Ignore environment-specific configuration files
-/config/*
-!/config/wdio.conf.ts
-
-# Ignore development-specific files
-/tsconfig.json
-
-# Ignore package-lock.json (if using npm)
-/package-lock.json
